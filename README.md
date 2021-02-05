@@ -1,34 +1,33 @@
 # FCC-Project-1-1
 Responsive Web Design Projects - Build a Tribute Page
-
+<html>
 <style>
- body {
-    background-color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',     'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 10;
-    line-height: 2;
-    text-align: center;
-    color: #500;
-    margin: 0;
-    text-align: center;
-    justify-content: center;
- }
+body {
+  background-color: white;
+  font-family: verdana, tahoma, bookman ;
+  font-size: 10;
+  line-height: 2;
+  text-align: center;
+  color: #500;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
 #main {
   background-color: beige;
-      }
+  padding: 5px;
+}
 #img-div {
   background-color: #a67a56;
   border-radius: 10px;
   padding: 15px;
-  
-  }
+}
 img {
   max-width: 300px;
   width: 100%;
   display: block;
   height: auto;
   margin: auto;
-  
 }
 #headline {
   margin: 50px 0;
@@ -39,6 +38,7 @@ img {
   margin: 0 auto 10px auto;
   text-align: center;
   line-height: 1;
+  padding: 5px;
 }
 ul {
   max-width: 500px;
@@ -46,13 +46,16 @@ ul {
   text-align: left;
   line-height: 2;
 }
-
 li {
   margin: 20px 0;
 }
 </style>
 
-<main id="main">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<! –– I've tried my best to make this work my own. I've used information from FCC's curriculum, W3Schools and other open forums and guides to make my own pages. If there has been any sort of infringement, feel free to contact me and I'll try and fix it. Contact info: shaak@live.nl ––>
+
+  <main id="main">
   <h1 id="title"> William the Silent </h1>
       <p> Prince and first ruler of the United Netherlands </p>
       <figure id="img-div">
@@ -94,5 +97,6 @@ li {
     </main>
 <footer>
   <p>
-  This page is created <a id="tribute-link" href="https://github.com/HaakSan" target="_blank">HaakSan</a> for FreeCodeCamp - 2021</p>
+  This page is created <a id="tribute-link" href="https://github.com/HaakSan" target="_blank">HaakSan</a> for <a id0"fcc-link" href="https://www.freecodecamp.org/""_blank">FreeCodeCamp</a> - 2021</p>
   </footer>
+</html>
